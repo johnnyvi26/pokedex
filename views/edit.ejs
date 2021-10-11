@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW</title>
+</head>
+<body>
+    <div>
+        <h1>NEW POKEMON</h1>
+        <form action="/pokemon/<% i %>/edit" method="POST">
+            <h3>NAME</h3><input type="text" name="pokemon.title" /><br />
+            <h3>TYPES</h3><input type="text" name="pokemon.type" /><br />
+            <h3>HP</h3><input type="text" name="pokemon.stats.hp" /><br />
+            <h3>ATTACK</h3><input type="text" name="pokemon.stats.attack" /><br />
+            <h3>DEFENSE</h3><input type="text" name="pokemon.stats.defense" /><br />
+            <input type="submit" name="" value="ADD POKEMON" />
+        </form>
+    </div>
+</body>
+</html>
